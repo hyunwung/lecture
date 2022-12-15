@@ -4,6 +4,9 @@ import "./Header.scss"
 const Header = () => {
   return (
     <div className='header'>
+      <div className='header-container'>
+        
+      </div>
     </div>
   )
 }
