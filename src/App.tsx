@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import {Routes,Route} from "react-router-dom";
+import {Routes,Route,BrowserRouter} from "react-router-dom";
 import Main from './pages/Main';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<Main></Main>}></Route>
       </Routes>
-    </div>
+    </BrowserRouter>
   );
 }
 
